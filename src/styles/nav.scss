@@ -1,0 +1,27 @@
+.nav{
+  &__link {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #000000;
+
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 45px;
+
+    position: absolute;
+    left: 80%;
+    top: 27px;
+    transform: translate(-50%, 0);
+  }
+}
