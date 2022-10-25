@@ -2,6 +2,8 @@
 @use './nav.scss';
 @use "./about.scss";
 @use "./posts.scss";
+@use "./works.scss";
+@use "./footer.scss";
 
 
 * {
@@ -24,6 +26,7 @@ h1, h2, h3, h4 {
 }
 
 a {
+  color: #000;
   text-decoration: none;
 }
 

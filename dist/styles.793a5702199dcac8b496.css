@@ -1,3 +1,6 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
 .header__container {
   position: relative;
   height: 140px;
@@ -78,7 +81,7 @@
 .about__img {
   width: 243px;
   height: 243px;
-  background-image: url("../images/john.png");
+  background-image: url(assets/bc75e36f20699bf0bccf.png);
   background-repeat: no-repeat;
   background-color: #959595;
   background-size: cover;
@@ -287,5 +290,3 @@ p {
   padding-right: 10px;
   padding-left: 10px;
 }
-
-/*# sourceMappingURL=main.css.map */

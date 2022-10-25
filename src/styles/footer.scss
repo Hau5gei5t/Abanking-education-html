@@ -1,0 +1,23 @@
+.footer{
+  &__container{
+    width: 100%;
+    padding-left: 250px;
+  }
+  &__wrapper{
+    max-width: 963px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  &__copyright{
+    max-width: 963px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+  }
+}
