@@ -1,13 +1,18 @@
 .footer{
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   &__container{
     width: 100%;
-    padding-left: 250px;
+    margin: 0 auto;
   }
   &__wrapper{
     max-width: 963px;
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
   &__copyright{
@@ -19,5 +24,7 @@
     line-height: 21px;
     text-align: center;
     color: #21243D;
+    margin-top: 26px;
+    margin-bottom: 54px;
   }
 }
